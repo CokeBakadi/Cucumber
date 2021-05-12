@@ -1,0 +1,238 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6878042646,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Adactin login page",
+            "match": {
+              "location": "StepDefenition.userIsInAdactinLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-04T09:18:16.051Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11235738108,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To check the credentials",
+        "description": "",
+        "id": "to-validate-adactin-hotelapp-login-functionality;to-check-the-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 271185,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 993904763,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter invalid username and invalid password",
+            "match": {
+              "location": "StepDefenition.userEnterInvalidUsernameAndInvalidPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "java",
+                  "haddop"
+                ]
+              },
+              {
+                "cells": [
+                  "mava",
+                  "premam"
+                ]
+              },
+              {
+                "cells": [
+                  "python",
+                  "sql"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 585614983,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click login button",
+            "match": {
+              "location": "StepDefenition.userClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200678304,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user gets the Error message",
+            "match": {
+              "location": "StepDefenition.userGetsTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13866808589,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Adactin login page",
+            "match": {
+              "location": "StepDefenition.userIsInAdactinLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-04T09:18:36.085Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2248916224,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "To check user enter valid credentials",
+        "description": "",
+        "id": "to-validate-adactin-hotelapp-login-functionality;to-check-user-enter-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 111212,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 341829880,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter valid username and valid password",
+            "match": {
+              "location": "StepDefenition.userEnterValidUsernameAndValidPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2160120382,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click login button",
+            "match": {
+              "location": "StepDefenition.userClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68551100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user gets passed to next page",
+            "match": {
+              "location": "StepDefenition.userGetsPassedToNextPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Adactin HotelApp login functionality",
+    "description": "",
+    "id": "to-validate-adactin-hotelapp-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Adactin.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
